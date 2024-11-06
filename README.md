@@ -1,1 +1,1 @@
-# ov2ow
+# From Open Vocabulary to Open World
