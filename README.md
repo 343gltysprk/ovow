@@ -1,5 +1,8 @@
 # From Open Vocabulary to Open World
 
+<p align="center">
+    <img src="assets/main.png" alt="main" width=60%>
+</p>
 
 ## Environment
 - Python 3.11.9 toch 2.3.1 CUDA 12.2
