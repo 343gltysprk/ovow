@@ -1,5 +1,8 @@
 # From Open Vocabulary to Open World
 
+<p align="center">
+    <img src="assets/main.png" alt="main" width=100%>
+</p>
 
 ## Environment
 - Python 3.11.9 toch 2.3.1 CUDA 12.2
@@ -9,6 +12,8 @@
   - Download [COCO](https://cocodataset.org/#download) and [PASCAL VOC](http://host.robots.ox.ac.uk/pascal/VOC/).
   - Convert annotation format using `coco_to_voc.py`.
   - Move all images to `datasets/JPEGImages` and annotations to `datasets/Annotations`.
+  - For nu-OWODB, first download nuimages from [here](https://www.nuscenes.org/nuimages).
+  - Convert annotation format using `nuimages_to_voc.py`.
 
 ## Getting Started
 - Training open world object detector:
