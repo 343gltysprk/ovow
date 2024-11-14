@@ -1,7 +1,7 @@
 # From Open Vocabulary to Open World
 
 <p align="center">
-    <img src="assets/main.png" alt="main" width=60%>
+    <img src="assets/main.png" alt="main" width=80%>
 </p>
 
 ## Environment
