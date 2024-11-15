@@ -9,11 +9,13 @@
 - Install [Yolo World](https://github.com/AILab-CVC/YOLO-World)
   - Requires: mmcv, mmcv-lite, mmdet, mmengine, mmyolo, numpy, opencv-python, openmim, supervision, tokenizers, torch, torchvision, transformers, wheel
 - Prepare datasets:
-  - Download [COCO](https://cocodataset.org/#download) and [PASCAL VOC](http://host.robots.ox.ac.uk/pascal/VOC/).
-  - Convert annotation format using `coco_to_voc.py`.
-  - Move all images to `datasets/JPEGImages` and annotations to `datasets/Annotations`.
-  - For nu-OWODB, first download nuimages from [here](https://www.nuscenes.org/nuimages).
-  - Convert annotation format using `nuimages_to_voc.py`.
+    - M-OWODB and S-OWODB
+      - Download [COCO](https://cocodataset.org/#download) and [PASCAL VOC](http://host.robots.ox.ac.uk/pascal/VOC/).
+      - Convert annotation format using `coco_to_voc.py`.
+      - Move all images to `datasets/JPEGImages` and annotations to `datasets/Annotations`.
+    - nu-OWODB
+      - For nu-OWODB, first download nuimages from [here](https://www.nuscenes.org/nuimages).
+      - Convert annotation format using `nuimages_to_voc.py`.
 
 ## Getting Started
 - Training open world object detector:
