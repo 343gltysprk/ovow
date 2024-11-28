@@ -27,3 +27,18 @@
   sh test_owod.sh
   ```
 - Model training starts from pretrained [Yolo World checkpoint](https://huggingface.co/wondervictor/YOLO-World/blob/main/yolo_world_v2_xl_obj365v1_goldg_cc3mlite_pretrain-5daf1395.pth)
+
+
+## Citation
+If you find this code useful, please consider citing:
+```
+@misc{li2024openvocabularyopenworld,
+      title={From Open Vocabulary to Open World: Teaching Vision Language Models to Detect Novel Objects}, 
+      author={Zizhao Li and Zhengkang Xiang and Joseph West and Kourosh Khoshelham},
+      year={2024},
+      eprint={2411.18207},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2411.18207}, 
+}
+```
