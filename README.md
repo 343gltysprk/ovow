@@ -1,4 +1,4 @@
-# From Open Vocabulary to Open World
+# From Open Vocabulary to Open World: Teaching Vision Language Models to Detect Novel Objects
 
 <p align="center">
     <img src="assets/main.png" alt="main" width=100%>
