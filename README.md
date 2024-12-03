@@ -22,11 +22,13 @@
   ```
   sh train.sh
   ```
+    - Model training starts from pretrained [Yolo World checkpoint](https://huggingface.co/wondervictor/YOLO-World/blob/main/yolo_world_v2_xl_obj365v1_goldg_cc3mlite_pretrain-5daf1395.pth)
+  
 - To evaluate the model:
   ```
   sh test_owod.sh
   ```
-- Model training starts from pretrained [Yolo World checkpoint](https://huggingface.co/wondervictor/YOLO-World/blob/main/yolo_world_v2_xl_obj365v1_goldg_cc3mlite_pretrain-5daf1395.pth)
+    - To reproduce our results, please download our checkpoints [here](https://huggingface.co/343GltySprk/ovow/tree/main)
 
 
 ## Citation
