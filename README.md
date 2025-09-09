@@ -1,4 +1,4 @@
-# From Open Vocabulary to Open World: Teaching Vision Language Models to Detect Novel Objects
+# [BMVC 2025 Oral] From Open Vocabulary to Open World: Teaching Vision Language Models to Detect Novel Objects
 
 <p align="center">
     <img src="assets/main.png" alt="main" width=100%>
@@ -8,6 +8,7 @@
 - Python 3.11.9 toch 2.3.1 CUDA 12.2
 - Install [Yolo World](https://github.com/AILab-CVC/YOLO-World)
   - Requires: mmcv, mmcv-lite, mmdet, mmengine, mmyolo, numpy, opencv-python, openmim, supervision, tokenizers, torch, torchvision, transformers, wheel
+- Note: YOLO-World has changed over time. To run our code, you may need to install a previous version of YOLO-World.
 - Prepare datasets:
     - M-OWODB and S-OWODB
       - Download [COCO](https://cocodataset.org/#download) and [PASCAL VOC](http://host.robots.ox.ac.uk/pascal/VOC/).
