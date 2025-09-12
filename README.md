@@ -8,7 +8,7 @@
 - Python 3.11.9 toch 2.3.1 CUDA 12.2
 - Install [Yolo World](https://github.com/AILab-CVC/YOLO-World)
   - Requires: mmcv, mmcv-lite, mmdet, mmengine, mmyolo, numpy, opencv-python, openmim, supervision, tokenizers, torch, torchvision, transformers, wheel
-- Note: YOLO-World has changed over time. To run our code, you may need to install a previous version of YOLO-World.
+- Note: YOLO-World has changed over time. To run our code, you may need to install a previous version of YOLO-World (I use 4d90f458c1d0de310643b0ac2498f188c98c819c).
 - Prepare datasets:
     - M-OWODB and S-OWODB
       - Download [COCO](https://cocodataset.org/#download) and [PASCAL VOC](http://host.robots.ox.ac.uk/pascal/VOC/).
