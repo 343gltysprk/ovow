@@ -5,10 +5,31 @@
 </p>
 
 ## Environment
-- Python 3.11.9 toch 2.3.1 CUDA 12.2
-- Install [Yolo World](https://github.com/AILab-CVC/YOLO-World)
+- Step 1: Set up the Conda environment
+```
+conda create --name ovow python==3.11
+```
+- Step 2: Install PyTorch
+```
+pip install numpy==1.26.4
+conda install pytorch==2.1.0 torchvision==0.16.0 torchaudio==2.1.0 pytorch-cuda=12.1 -c pytorch -c nvidia
+```
+- Step 3: Install [Yolo World](https://github.com/AILab-CVC/YOLO-World)
   - Requires: mmcv, mmcv-lite, mmdet, mmengine, mmyolo, numpy, opencv-python, openmim, supervision, tokenizers, torch, torchvision, transformers, wheel
 - Note: YOLO-World has changed over time. To run our code, you may need to install a previous version of YOLO-World (I use 4d90f458c1d0de310643b0ac2498f188c98c819c).
+
+```
+pip install mmcv==2.1.0 -f https://download.openmmlab.com/mmcv/dist/cu121/torch2.1/index.html
+git clone https://github.com/AILab-CVC/YOLO-World.git
+cd YOLO-World
+git checkout 4d90f458c1d0de310643b0ac2498f188c98c819c
+pip install -e .
+```
+- Step 4: Install other dependencies
+```
+pip install 'git+https://github.com/facebookresearch/detectron2.git'
+```
+- If you encounter other installation problems, feel free to raise an issue with details about your environment and error message.
 - Prepare datasets:
     - M-OWODB and S-OWODB
       - Download [COCO](https://cocodataset.org/#download) and [PASCAL VOC](http://host.robots.ox.ac.uk/pascal/VOC/).
