@@ -56,6 +56,15 @@ pip install 'git+https://github.com/facebookresearch/detectron2.git'
 ## Citation
 If you find this code useful, please consider citing:
 ```
+@inproceedings{Li_2025_BMVC,
+author    = {Zizhao Li and Zhengkang Xiang and Joseph West and Kourosh Khoshelham},
+title     = {From Open Vocabulary to Open World: Teaching Vision Language Models to Detect Novel Objects},
+booktitle = {36th British Machine Vision Conference 2025, {BMVC} 2025, Sheffield, UK, November 24-27, 2025},
+publisher = {BMVA},
+year      = {2025},
+url       = {https://bmva-archive.org.uk/bmvc/2025/assets/papers/Paper_717/paper.pdf}
+}
+
 @misc{li2024openvocabularyopenworld,
       title={From Open Vocabulary to Open World: Teaching Vision Language Models to Detect Novel Objects}, 
       author={Zizhao Li and Zhengkang Xiang and Joseph West and Kourosh Khoshelham},
